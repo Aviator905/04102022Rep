@@ -1,0 +1,24 @@
+.wrapper {
+    width: 960px;
+    display: flex;
+
+}
+
+.one, .two, .three {
+    width: 30%;
+    margin-left: 10px;
+
+}
+
+
+@media (max-width: 900px) {
+    .wrapper {
+        width: 100vh;
+        flex-wrap: wrap;
+    }
+
+    .one, .two, .three {        
+        width: 90%;
+        
+    }
+}
